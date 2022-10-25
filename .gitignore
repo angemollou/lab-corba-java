@@ -1,2 +1,5 @@
 *.jar
 .env
+classes/
+generated/
+tpcorba/
