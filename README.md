@@ -1,4 +1,4 @@
-# tp-cobra-java
+# EXO1
 
 ## On linux, create a new file named ".env"
 
