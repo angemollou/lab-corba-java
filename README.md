@@ -29,7 +29,7 @@ PATH="$JAVA_HOME/bin:$PATH"
 According to how he installed Java 8, one shouldn't set `JAVA_HOME="$MY_HOME/jdk1.8.0_351"` variable.
 
 ## 2. Make
-The current working directory being **EXO1/** folder.  
+The current working directory being `EXO1/` folder.  
 1. Run `source .env` **(It should only work for linux)**
 2. Run `make` from command line interface
 
