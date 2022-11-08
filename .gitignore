@@ -1,4 +1,6 @@
 *.jar
+*.zip
+*.jacorb
 .env
 classes/
 generated/

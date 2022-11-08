@@ -29,15 +29,15 @@ classes/$(MODULE)/%.class : %.java
 .SUFFIXES:      .idl .jacorb
 
 .idl.jacorb:
-	./idl -d generated  $<
-	javac -d classes $(MODULE)/*.java
+	./idl -fall -td generated  $<
+	javac -d classes generated/$(MODULE)/*.java
 	touch $*.jacorb 
 
 ####
 
 clean::
 	rm -rf core *.jacorb *.ref 
-	rm -rf classes generated tpcorba
+	rm -rf classes generated
 
 ####
 
