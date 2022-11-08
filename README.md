@@ -7,7 +7,7 @@ install Java 8 according to your system
 ## 1. Set environment variables
 ### On linux, create a new file named ".env"
 
-1. Add in ".env"
+1. Change current working directory to `tp-corba-java/EXO1/` and add in `.env` file
 ```
 #!/bin/sh
 
