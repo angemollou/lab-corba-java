@@ -35,3 +35,4 @@ The current working directory being `EXO1/` folder.
 
 ## 3. Start server
 Run `java tpcorba.exo1.Serveur`
+If it worked, one would see `Le serveur est pret`.
