@@ -13,20 +13,20 @@ install Java 8 according to your system
 
 export MY_HOME=/home/path/to/project/folder/
 export CLASSPATH="$MY_HOME/org.jboss.openjdk-orb.zip:$MY_HOME/idlj.jar:$MY_HOME/rmic.jar:classes"
-export JAVA_HOME="$MY_HOME/jdk1.8.0_351"
+export JAVA_HOME="/absolute/path/to/jdk/folder"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 ```
-According to how he installed Java 8, one should remove `export JAVA_HOME="$MY_HOME/jdk1.8.0_351"` from .env
+According to how he installed Java 8, one should remove `export JAVA_HOME="/absolute/path/to/jdk/folder"` from .env
 
 ### On Windows, register all those variables
 ```
 MY_HOME=/home/path/to/project/folder/
 CLASSPATH="$MY_HOME/org.jboss.openjdk-orb.zip:$MY_HOME/idlj.jar:$MY_HOME/rmic.jar:classes"
-JAVA_HOME="$MY_HOME/jdk1.8.0_351"
+JAVA_HOME="/absolute/path/to/jdk/folder"
 PATH="$JAVA_HOME/bin:$PATH"
 ```
-According to how he installed Java 8, one shouldn't set `JAVA_HOME="$MY_HOME/jdk1.8.0_351"` variable.
+According to how he installed Java 8, one shouldn't set `JAVA_HOME="/absolute/path/to/jdk/folder"` variable.
 
 ## 2. Make
 The current working directory being `EXO1/` folder.  
