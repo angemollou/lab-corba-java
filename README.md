@@ -28,7 +28,8 @@ PATH="$JAVA_HOME/bin:$PATH"
 
 ## 2. Make
 The current working directory begin **EXO1** folder.  
-Run `make` from command line interface
+1. Run `source .env` **(It should only work for linux)**
+2. Run `make` from command line interface
 
 ## 3. Start server
 Run `java tpcorba.exo1.Serveur`
