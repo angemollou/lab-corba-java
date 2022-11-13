@@ -35,6 +35,10 @@ According to how he installed Java 8, one shouldn't set `JAVA_HOME="/absolute/pa
    We choose Debian distribution for this tutorial.
 3. Restart your machine
 
+**One could encounter **`WslRegisterDistribution failed with error: 0x80370102`** error**  
+This (tutorial)[https://www.partitionwizard.com/partitionmagic/wslregisterdistribution-failed-with-error-0x80370102.html] could help you to solve the issue.
+
+
 ## 2. Make
 The current working directory being `EXO1/` folder.  
 1. Run `source .env` **(It should only work for linux)**
