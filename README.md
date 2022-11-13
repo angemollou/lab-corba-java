@@ -19,7 +19,8 @@ export PATH="$JAVA_HOME/bin:$PATH"
 ```
 According to how he installed Java 8, one should remove `export JAVA_HOME="/absolute/path/to/jdk/folder"` from .env
 
-### On Windows, register all those variables
+### On Windows
+#### 1.1. register all those variables
 ```
 MY_HOME=/home/path/to/project/folder/
 CLASSPATH="$MY_HOME/org.jboss.openjdk-orb.zip:$MY_HOME/idlj.jar:$MY_HOME/rmic.jar:classes"
@@ -27,6 +28,12 @@ JAVA_HOME="/absolute/path/to/jdk/folder"
 PATH="$JAVA_HOME/bin:$PATH"
 ```
 According to how he installed Java 8, one shouldn't set `JAVA_HOME="/absolute/path/to/jdk/folder"` variable.
+
+#### 1.2. Install a Windows Linux Subsystem
+1. Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting "Run as administrator"
+2. Run `wsl --install --distribution Debian` command.  
+   We choose Debian distribution for this tutorial.
+3. Restart your machine
 
 ## 2. Make
 The current working directory being `EXO1/` folder.  
